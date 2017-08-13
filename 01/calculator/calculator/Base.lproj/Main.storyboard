@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLY-V4-aai">
+                                <rect key="frame" x="0.0" y="28" width="320" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.78763193391286035" blue="0.50347823903958711" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zf-ab-9lU">
+                                <rect key="frame" x="0.0" y="124" width="222" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.84730493781120386" green="0.85389005829015541" blue="0.83041013060553526" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="A/C">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Kd-Sb-lj9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNd-nF-UK3">
+                                <rect key="frame" x="222" y="124" width="98" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49614404663983458" green="0.5" blue="0.48625119975536618" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" red="0.99228809327966916" green="1" blue="0.97250239951073236" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u6E-Xo-kSS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqx-0H-GGz">
+                                <rect key="frame" x="222" y="219" width="98" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67211085373268475" green="0.67903983160621761" blue="0.66518187585915189" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lmo-m7-wbB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dR-kT-Cq3">
+                                <rect key="frame" x="222" y="293" width="98" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67211085370000001" green="0.67903983160000003" blue="0.6651818759" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D2x-iv-dmn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7u-bq-giN">
+                                <rect key="frame" x="222" y="367" width="98" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67211085370000001" green="0.67903983160000003" blue="0.6651818759" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8VX-Rc-yyZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fND-wC-nqe">
+                                <rect key="frame" x="0.0" y="219" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77650648355484009" green="0.78441011905670166" blue="0.77650034427642822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TKU-li-aB6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R36-aF-Jg9">
+                                <rect key="frame" x="0.0" y="293" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77650648355484009" green="0.78441011905670166" blue="0.77650034427642822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2wZ-1P-n2L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0i-2h-wu3">
+                                <rect key="frame" x="74" y="293" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77650648355484009" green="0.78441011905670166" blue="0.77650034427642822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NDE-1z-wqa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBJ-3J-5ac">
+                                <rect key="frame" x="148" y="293" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77650648355484009" green="0.78441011905670166" blue="0.77650034427642822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KUN-Nx-eiD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itC-Yc-5nJ">
+                                <rect key="frame" x="0.0" y="367" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77650648355484009" green="0.78441011905670166" blue="0.77650034427642822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fWL-Cu-tFr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFz-n7-eCX">
+                                <rect key="frame" x="74" y="367" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77650648355484009" green="0.78441011905670166" blue="0.77650034427642822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QFD-ue-29p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMh-w2-ICY">
+                                <rect key="frame" x="74" y="219" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77650648355484009" green="0.78441011905670166" blue="0.77650034427642822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8fb-3R-Qr0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lG-zZ-KhI">
+                                <rect key="frame" x="148" y="219" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77345021571443329" green="0.78501457253886009" blue="0.77634130492053999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pdh-m1-J9r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cb-5n-6An">
+                                <rect key="frame" x="222" y="441" width="98" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49415484070777893" green="0.50217771530151367" blue="0.48634245991706848" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cCL-k4-1hz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yN3-p6-xpK">
+                                <rect key="frame" x="148" y="367" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77650648355484009" green="0.78441011905670166" blue="0.77650034427642822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ea0-Zx-hZz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EI3-Kx-liB">
+                                <rect key="frame" x="0.0" y="441" width="222" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67211085370000001" green="0.67903983160000003" blue="0.6651818759" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="0.99228809330000001" green="1" blue="0.97250239949999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fRF-Wf-vll"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="allClearButton" destination="4Zf-ab-9lU" id="xx2-XL-i7d"/>
+                        <outlet property="calcResultLabel" destination="HLY-V4-aai" id="wqf-5n-4Vm"/>
+                        <outlet property="divideButton" destination="nNd-nF-UK3" id="bCJ-WM-qe3"/>
+                        <outlet property="eightButton" destination="cMh-w2-ICY" id="l9D-bj-JZT"/>
+                        <outlet property="fiveButton" destination="g0i-2h-wu3" id="kcl-dd-cP0"/>
+                        <outlet property="fourButton" destination="R36-aF-Jg9" id="YOU-bF-kDr"/>
+                        <outlet property="minusButton" destination="9dR-kT-Cq3" id="Ois-7b-9Fc"/>
+                        <outlet property="multiplyButton" destination="bqx-0H-GGz" id="bxd-1S-NNE"/>
+                        <outlet property="nineButton" destination="8lG-zZ-KhI" id="xph-RR-B00"/>
+                        <outlet property="oneButton" destination="itC-Yc-5nJ" id="lRX-g7-erF"/>
+                        <outlet property="plusButton" destination="o7u-bq-giN" id="qFE-Xb-6hz"/>
+                        <outlet property="resultButton" destination="0Cb-5n-6An" id="h1s-iu-6w1"/>
+                        <outlet property="sevenButton" destination="fND-wC-nqe" id="Eht-CX-q0f"/>
+                        <outlet property="sixButton" destination="KBJ-3J-5ac" id="xb4-CW-BCd"/>
+                        <outlet property="threeButton" destination="yN3-p6-xpK" id="eFY-ma-b01"/>
+                        <outlet property="twoButton" destination="PFz-n7-eCX" id="HZg-1S-By0"/>
+                        <outlet property="zeroButton" destination="EI3-Kx-liB" id="pAA-Us-Shm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="123.59154929577466"/>
+        </scene>
+    </scenes>
+</document>
