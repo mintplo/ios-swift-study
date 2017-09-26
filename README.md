@@ -1,5 +1,5 @@
 # iOS 10, Swift 3
-1. 스위프트 문법
+1. 스위프트 문법 ([7d098de](https://github.com/mintplo/ios-swift-study/commit/7d098dee38a151762fe9998a64a010b61f686e22))
 2. 도서 관리 프로그램
 3. 비주얼 도서관리 어플리케이션
 4. 디지털 액자 어플리케이션
