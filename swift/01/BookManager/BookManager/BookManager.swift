@@ -48,12 +48,16 @@ class BookManager {
         return nil
     }
 
-    func removeBook(_ bookName: String) {
+    func removeBook(_ bookName: String) -> Bool {
         for book in bookList {
             if book.name == bookName {
                 let index = (bookList as NSArray).index(of: book)
                 bookList.remove(at: index)
+
+                return true
             }
         }
+
+        return false
     }
 }
