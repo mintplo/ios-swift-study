@@ -6,7 +6,8 @@
 > Interface Builder Basic, UIButton, UITextField, UIButton, @IBACtion, @IBOutlet
 4. 디지털 액자 어플리케이션 ([a9efffb](https://github.com/mintplo/ios-swift-study/commit/a9efffb4f631fd1bf9ad8be7ebe4af45bc646515))
 > UIImageView, UIImage, UISlider, UILabel
-5. 회원가입 화면 어플리케이션
+5. 회원가입 화면 어플리케이션 ([3b7f1b8](https://github.com/mintplo/ios-swift-study/commit/3b7f1b8524e3f743a109826a975c5fe78bbc56ab))
+> Protocol, Delegate, UITextFieldDelegate, TextField Properties
 6. AppLifeCycle
 7. 웹브라우저 어플리케이션
 8. 항공권 검색 UI 어플리케이션
