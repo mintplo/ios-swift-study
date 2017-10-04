@@ -8,7 +8,8 @@
 > UIImageView, UIImage, UISlider, UILabel
 5. 회원가입 화면 어플리케이션 ([3b7f1b8](https://github.com/mintplo/ios-swift-study/commit/3b7f1b8524e3f743a109826a975c5fe78bbc56ab))
 > Protocol, Delegate, UITextFieldDelegate, TextField Properties
-6. AppLifeCycle
+6. AppLifeCycle ([d49560e](https://github.com/mintplo/ios-swift-study/commit/d49560ef3cb662336f08456defb35140524f2c78))
+> AppDelegate
 7. 웹브라우저 어플리케이션
 8. 항공권 검색 UI 어플리케이션
 9. I want a super car 어플리케이션
