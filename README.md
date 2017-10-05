@@ -10,7 +10,8 @@
 > Protocol, Delegate, UITextFieldDelegate, TextField Properties
 6. AppLifeCycle ([d49560e](https://github.com/mintplo/ios-swift-study/commit/d49560ef3cb662336f08456defb35140524f2c78))
 > AppDelegate
-7. 웹브라우저 어플리케이션
+7. 웹브라우저 어플리케이션 ([8bf220a](https://github.com/mintplo/ios-swift-study/commit/8bf220a2272e3ed76b29234effd339bffe6025ac))
+> UIWebView, UIWebViewDelegate, Segmented Control, Toolbar, UIActivityIndicatorView
 8. 항공권 검색 UI 어플리케이션
 9. I want a super car 어플리케이션
 10. Tabbar Test 어플리케이션
