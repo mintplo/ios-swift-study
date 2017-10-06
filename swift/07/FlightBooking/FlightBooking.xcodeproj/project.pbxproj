@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D346B21F8780250046388A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D346B11F8780250046388A /* AppDelegate.swift */; };
+		D5D346B41F8780250046388A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D346B31F8780250046388A /* ViewController.swift */; };
+		D5D346B71F8780250046388A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D346B51F8780250046388A /* Main.storyboard */; };
+		D5D346B91F8780250046388A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D346B81F8780250046388A /* Assets.xcassets */; };
+		D5D346BC1F8780250046388A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D346BA1F8780250046388A /* LaunchScreen.storyboard */; };
+		D5D346C61F87871F0046388A /* 13b81f56471d29e6d657a27d0d7563f0--bali-sanur-bali-indonésia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5D346C51F87871E0046388A /* 13b81f56471d29e6d657a27d0d7563f0--bali-sanur-bali-indonésia.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5D346AE1F8780250046388A /* FlightBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D346B11F8780250046388A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D346B31F8780250046388A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D346B61F8780250046388A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D346B81F8780250046388A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D346BB1F8780250046388A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5D346BD1F8780250046388A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D346C51F87871E0046388A /* 13b81f56471d29e6d657a27d0d7563f0--bali-sanur-bali-indonésia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "13b81f56471d29e6d657a27d0d7563f0--bali-sanur-bali-indonésia.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D346AB1F8780250046388A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5D346A51F8780250046388A = {
+			isa = PBXGroup;
+			children = (
+				D5D346B01F8780250046388A /* FlightBooking */,
+				D5D346AF1F8780250046388A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D346AF1F8780250046388A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D346AE1F8780250046388A /* FlightBooking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D346B01F8780250046388A /* FlightBooking */ = {
+			isa = PBXGroup;
+			children = (
+				D5D346C31F87808E0046388A /* Resources */,
+				D5D346B11F8780250046388A /* AppDelegate.swift */,
+				D5D346B31F8780250046388A /* ViewController.swift */,
+				D5D346B51F8780250046388A /* Main.storyboard */,
+				D5D346B81F8780250046388A /* Assets.xcassets */,
+				D5D346BA1F8780250046388A /* LaunchScreen.storyboard */,
+				D5D346BD1F8780250046388A /* Info.plist */,
+			);
+			path = FlightBooking;
+			sourceTree = "<group>";
+		};
+		D5D346C31F87808E0046388A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5D346C51F87871E0046388A /* 13b81f56471d29e6d657a27d0d7563f0--bali-sanur-bali-indonésia.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D346AD1F8780250046388A /* FlightBooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D346C01F8780250046388A /* Build configuration list for PBXNativeTarget "FlightBooking" */;
+			buildPhases = (
+				D5D346AA1F8780250046388A /* Sources */,
+				D5D346AB1F8780250046388A /* Frameworks */,
+				D5D346AC1F8780250046388A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightBooking;
+			productName = FlightBooking;
+			productReference = D5D346AE1F8780250046388A /* FlightBooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D346A61F8780250046388A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = mintplo;
+				TargetAttributes = {
+					D5D346AD1F8780250046388A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D5D346A91F8780250046388A /* Build configuration list for PBXProject "FlightBooking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D346A51F8780250046388A;
+			productRefGroup = D5D346AF1F8780250046388A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D346AD1F8780250046388A /* FlightBooking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D346AC1F8780250046388A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D346BC1F8780250046388A /* LaunchScreen.storyboard in Resources */,
+				D5D346B91F8780250046388A /* Assets.xcassets in Resources */,
+				D5D346C61F87871F0046388A /* 13b81f56471d29e6d657a27d0d7563f0--bali-sanur-bali-indonésia.jpg in Resources */,
+				D5D346B71F8780250046388A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D346AA1F8780250046388A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D346B41F8780250046388A /* ViewController.swift in Sources */,
+				D5D346B21F8780250046388A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5D346B51F8780250046388A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D346B61F8780250046388A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5D346BA1F8780250046388A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D346BB1F8780250046388A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D346BE1F8780250046388A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5D346BF1F8780250046388A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D346C11F8780250046388A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightBooking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintplo.FlightBooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5D346C21F8780250046388A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlightBooking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintplo.FlightBooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D346A91F8780250046388A /* Build configuration list for PBXProject "FlightBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D346BE1F8780250046388A /* Debug */,
+				D5D346BF1F8780250046388A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D346C01F8780250046388A /* Build configuration list for PBXNativeTarget "FlightBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D346C11F8780250046388A /* Debug */,
+				D5D346C21F8780250046388A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D346A61F8780250046388A /* Project object */;
+}
