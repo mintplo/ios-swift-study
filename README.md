@@ -14,7 +14,8 @@
 > UIWebView, UIWebViewDelegate, Segmented Control, Toolbar, UIActivityIndicatorView
 8. 항공권 검색 UI 어플리케이션 ([27d479b](https://github.com/mintplo/ios-swift-study/commit/27d479b48ee3fb0f4567982d334a18d0d8f7737d))
 > UIDatePicker, UISwitch, NSDate, DateFormatter
-9. I want a super car 어플리케이션
+9. I want a super car 어플리케이션 ([aac8376](https://github.com/mintplo/ios-swift-study/commit/aac8376e6222b386a30f72b884b90e1796397282))
+> PickerView, UIPickerViewDelegate, UIPickerDataSource, UIImageView Layer
 10. Tabbar Test 어플리케이션
 > Multi ViewController
 11. 날씨 정보 관련 어플리케이션
